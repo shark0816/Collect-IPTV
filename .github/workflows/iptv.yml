@@ -1,7 +1,7 @@
 name: IPTV Daily Update
 on:
   schedule:
-    - cron: '0 */4 * * *'  
+    - cron: '0 0 * * *'  
   workflow_dispatch: 
 env:
   TZ: Asia/Shanghai
